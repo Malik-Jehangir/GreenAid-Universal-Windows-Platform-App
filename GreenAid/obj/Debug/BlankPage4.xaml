@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="GreenAid.BlankPage4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GreenAid"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.BottomAppBar>
+        <CommandBar Background="#FF4960CD">
+            <AppBarButton x:ConnectionId='1' Icon="Accept" Label="Proceed"                 />
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="#FFEFF9F8">
+
+        <Rectangle HorizontalAlignment="Left" Height="588" VerticalAlignment="Top" Width="430" Margin="10,55,0,0"/>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Margin="14,19,36,0" FontSize="30" Foreground="#FF0F1311" >
+        	<Run FontWeight="Bold" Text="Checkout &amp; payment"/>
+        </TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="118" Margin="14,67,0,0" Foreground="#FF0B0C0F" FontSize="32">
+        	<Run FontWeight="Bold" Text="Details:"/>
+        </TextBlock>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="342" Margin="14,376,0,0" Foreground="#FF0E0D13" FontSize="32">
+        	<Run FontWeight="Bold" Text="Comments (optional):"/>
+        </TextBlock>
+        <TextBox x:Name="comment" HorizontalAlignment="Left" Margin="18,428,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="174" Width="396" BorderBrush="#FFF36666" FontSize="21.333"/>
+        <TextBlock x:Name="delivery" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="241" Width="375" Margin="38,122,0,0" Foreground="#FF0C0F0D" FontSize="21.333"/>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="GreenAid.BlankPage10"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GreenAid"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="801">
+    <Page.BottomAppBar>
+        <CommandBar Background="#FF4960CD">
+            <AppBarButton Icon="Back" Label="Back" Click="Button_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <ScrollViewer Margin="0,0,0,0.167" Grid.RowSpan="2">
+        <Grid Background="#FFEFF9F8" Height="1479">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+            <Grid HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="450" Background="#FF4960CD">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Workshops" VerticalAlignment="Top" Height="39" Width="130" Margin="145,17,0,0" FontSize="24" Foreground="#FFF5F1F1" FontWeight="Bold"/>
+            </Grid>
+            <HyperlinkButton NavigateUri="https://www.youtube.com/watch?v=P1W35WemRDY" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,80,0,0" Height="138" Width="130">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/photo.jpg"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <HyperlinkButton Content="" NavigateUri="https://www.youtube.com/watch?v=fq6KkG-hdWE" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,277,0,0" Height="138" Width="130">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/w1.jpg"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <HyperlinkButton NavigateUri="https://www.youtube.com/watch?v=zUxIzZpryKQ" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,481,0,0" Height="138" Width="130">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/flfl.jpg"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="52" Width="218" Margin="171,76,0,0" FontSize="24" Foreground="#FF1D1313" FontWeight="Bold">
+        	<Run Text="How to arrange tall flowers?"/>
+        	<LineBreak/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="182" Margin="171,475,0,0" FontSize="24" Foreground="#FF080505" FontWeight="Bold" Text="Landscaping floral workshop"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="68" Width="243" Margin="171,266,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold" Text="Contemporary designing - NEW"/>
+            <HyperlinkButton NavigateUri="https://www.youtube.com/watch?v=G1x5MDDvgi0" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,696,0,0" Height="138" Width="130">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/jj.jpg"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <HyperlinkButton Content="" NavigateUri="https://www.youtube.com/watch?v=YFaPSJ0pLoM" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,915,0,0" Height="138" Width="130">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/jj.jpg"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="63" Width="240" Margin="165,682,0,0" FontSize="24" Foreground="#FF0E0909" FontWeight="Bold" Text="Yellow rose center piece method"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="218" Margin="165,904,0,0" FontSize="24" Foreground="#FF0F0C0C" FontWeight="Bold" Text="Perimeter Urn step by step process"/>
+            <HyperlinkButton Content="" NavigateUri="https://www.youtube.com/watch?v=qfX0DTj6lcA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="16,1129,0,0" Height="138" Width="130">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="Assets/ikebana3.jpg"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="218" Margin="165,1118,0,0" FontSize="24" Foreground="#FF0F0C0C" FontWeight="Bold" Text="Ikebana arrangement"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="243" Margin="171,140,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold">
+            	<Run FontWeight="Normal" Text="Arrangement made easy, anyone can now do it easily."/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="243" Margin="171,344,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold">
+            	<Run FontWeight="Normal" Text="The concept is simple, follow the tutorial and create your own"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="243" Margin="171,542,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold">
+            	<Run FontWeight="Normal" Text="Field of flowers brings you a workshop for a landscape"/>
+            	<LineBreak/>
+            	<Run FontWeight="Normal"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="243" Margin="165,752,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold">
+            	<Run FontWeight="Normal" Text="The center piece method especially for yellow roses"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="243" Margin="165,974,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold">
+            	<Run FontWeight="Normal" Text="The perimeter step method is simple and easy, its different"/>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="132" Width="243" Margin="165,1184,0,0" FontSize="24" Foreground="#FF1B1717" FontWeight="Bold">
+            	<Run FontWeight="Normal" Text="Japanese arrangement"/>
+            	<LineBreak/>
+            	<Run FontWeight="Normal" Text="made easy fro everyone"/>
+            </TextBlock>
+
+        </Grid>
+    </ScrollViewer>
+</Page>

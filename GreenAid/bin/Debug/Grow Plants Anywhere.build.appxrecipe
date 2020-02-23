@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MALIK_JEHANGIR</Machine>
+    <WindowsUser>MALIKJEHANGIRAHMED</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d89b4e39-0bda-42e2-af35-4f7af54f69fd</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\Grow Plants Anywhere.exe">
+      <PackagePath>Grow Plants Anywhere.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Common.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Common.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Display.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Display.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.UI.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\bootstrap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\Ormma.js">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\Ormma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\003350-glossy-black-icon-media-a-media35-add.png">
+      <PackagePath>003350-glossy-black-icon-media-a-media35-add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\arrow_left.png">
+      <PackagePath>Assets\arrow_left.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\br_next.png">
+      <PackagePath>Assets\br_next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Instagram-Icon.png">
+      <PackagePath>Assets\Instagram-Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\next-button.png">
+      <PackagePath>Assets\next-button.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P1.png">
+      <PackagePath>Assets\P1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P10.png">
+      <PackagePath>Assets\P10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P11.png">
+      <PackagePath>Assets\P11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P12.png">
+      <PackagePath>Assets\P12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P13.png">
+      <PackagePath>Assets\P13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P14.png">
+      <PackagePath>Assets\P14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P15.png">
+      <PackagePath>Assets\P15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P16.png">
+      <PackagePath>Assets\P16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P17.png">
+      <PackagePath>Assets\P17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P18.png">
+      <PackagePath>Assets\P18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P19.png">
+      <PackagePath>Assets\P19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P2.png">
+      <PackagePath>Assets\P2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P20.png">
+      <PackagePath>Assets\P20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P21.png">
+      <PackagePath>Assets\P21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P3.png">
+      <PackagePath>Assets\P3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P4.png">
+      <PackagePath>Assets\P4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P5.png">
+      <PackagePath>Assets\P5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P6.png">
+      <PackagePath>Assets\P6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P7.png">
+      <PackagePath>Assets\P7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P8.png">
+      <PackagePath>Assets\P8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\P9.png">
+      <PackagePath>Assets\P9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\camera-black-and-white-instagram-camera-logo-black-and-white.png">
+      <PackagePath>camera-black-and-white-instagram-camera-logo-black-and-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\fb.png">
+      <PackagePath>fb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\GreenButton.png">
+      <PackagePath>GreenButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\icon_232672.png">
+      <PackagePath>icon_232672.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\info_black.png">
+      <PackagePath>info_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\plainicon.com-43939-512px.png">
+      <PackagePath>plainicon.com-43939-512px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\power_black.png">
+      <PackagePath>power_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\round-home-return-menu-control-512.png">
+      <PackagePath>round-home-return-menu-control-512.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\warenkorb.png">
+      <PackagePath>warenkorb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\youtube.png">
+      <PackagePath>youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\2534263.jpg">
+      <PackagePath>2534263.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\BadgeLogo.scale-100.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\BadgeLogo.scale-140.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\BadgeLogo.scale-240.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\IMG-20160127-WA0012.jpg">
+      <PackagePath>Assets\IMG-20160127-WA0012.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\jj2.jpg">
+      <PackagePath>Assets\jj2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\jj3.jpg">
+      <PackagePath>Assets\jj3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\loud.jpg">
+      <PackagePath>Assets\loud.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\SplashScreen.scale-100.jpg">
+      <PackagePath>Assets\SplashScreen.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\SplashScreen.scale-140.jpg">
+      <PackagePath>Assets\SplashScreen.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\SplashScreen.scale-240.jpg">
+      <PackagePath>Assets\SplashScreen.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square150x150Logo.scale-100.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square150x150Logo.scale-140.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square150x150Logo.scale-240.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square44x44Logo.scale-100.jpg">
+      <PackagePath>Assets\Square44x44Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square44x44Logo.scale-140.jpg">
+      <PackagePath>Assets\Square44x44Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square44x44Logo.scale-240.jpg">
+      <PackagePath>Assets\Square44x44Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square71x71Logo.scale-100.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square71x71Logo.scale-140.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Square71x71Logo.scale-240.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\StoreLogo.scale-100.jpg">
+      <PackagePath>Assets\StoreLogo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\StoreLogo.scale-140.jpg">
+      <PackagePath>Assets\StoreLogo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\StoreLogo.scale-240.jpg">
+      <PackagePath>Assets\StoreLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Wide310x150Logo.scale-100.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Wide310x150Logo.scale-140.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\Assets\Wide310x150Logo.scale-240.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\car-service-car-with-wheel-and-tools-icon-on-green-map-pointer-vector-illustration-stock-vector-589747.jpg">
+      <PackagePath>car-service-car-with-wheel-and-tools-icon-on-green-map-pointer-vector-illustration-stock-vector-589747.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\green-gift.jpg">
+      <PackagePath>green-gift.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\green-tree-silhouettes-free-vector.jpg">
+      <PackagePath>green-tree-silhouettes-free-vector.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\BlankPage2.xbf">
+      <PackagePath>BlankPage2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\BlankPage3.xbf">
+      <PackagePath>BlankPage3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\BlankPage4.xbf">
+      <PackagePath>BlankPage4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\BlankPage5.xbf">
+      <PackagePath>BlankPage5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\Grow Plants Anywhere.xr.xml">
+      <PackagePath>Grow Plants Anywhere.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\Grow Plants Anywhere\Grow Plants Anywhere\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

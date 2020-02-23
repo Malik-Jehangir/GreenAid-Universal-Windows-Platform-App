@@ -1,0 +1,137 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GreenAid"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Class="GreenAid.MainPage"
+    mc:Ignorable="d"     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Thickness x:Key="PhoneBorderThickness">2.5</Thickness>
+        <FontFamily x:Key="PhoneFontFamilyNormal">Segoe WP</FontFamily>
+        <FontWeight x:Key="PhoneButtonFontWeight">Semibold</FontWeight>
+        <x:Double x:Key="TextStyleLargeFontSize">18.14</x:Double>
+        <Thickness x:Key="PhoneButtonContentPadding">9.5,0,9.5,3.5</Thickness>
+        <x:Double x:Key="PhoneButtonMinHeight">57.5</x:Double>
+        <x:Double x:Key="PhoneButtonMinWidth">109</x:Double>
+        <Thickness x:Key="PhoneTouchTargetOverhang">0,9.5</Thickness>
+        <SolidColorBrush x:Key="ButtonDisabledBackgroundThemeBrush" Color="Transparent"/>
+        <Style x:Key="RoundButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource PhoneForegroundBrush}"/>
+            <Setter Property="Foreground" Value="{ThemeResource PhoneForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource PhoneBorderThickness}"/>
+            <Setter Property="FontFamily" Value="{ThemeResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontWeight" Value="{ThemeResource PhoneButtonFontWeight}"/>
+            <Setter Property="FontSize" Value="{ThemeResource TextStyleLargeFontSize}"/>
+            <Setter Property="Padding" Value="{ThemeResource PhoneButtonContentPadding}"/>
+            <Setter Property="MinHeight" Value="{ThemeResource PhoneButtonMinHeight}"/>
+            <Setter Property="MinWidth" Value="{ThemeResource PhoneButtonMinWidth}"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="Grid" Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualStateGroup.Transitions>
+                                        <VisualTransition From="Pressed" To="PointerOver">
+                                            <Storyboard>
+                                                <PointerUpThemeAnimation Storyboard.TargetName="Grid"/>
+                                            </Storyboard>
+                                        </VisualTransition>
+                                        <VisualTransition From="PointerOver" To="Normal">
+                                            <Storyboard>
+                                                <PointerUpThemeAnimation Storyboard.TargetName="Grid"/>
+                                            </Storyboard>
+                                        </VisualTransition>
+                                        <VisualTransition From="Pressed" To="Normal">
+                                            <Storyboard>
+                                                <PointerUpThemeAnimation Storyboard.TargetName="Grid"/>
+                                            </Storyboard>
+                                        </VisualTransition>
+                                    </VisualStateGroup.Transitions>
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <PointerDownThemeAnimation Storyboard.TargetName="Grid"/>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="33"  Margin="{ThemeResource PhoneTouchTargetOverhang}">
+                                <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="55.5,3.5,54.833,11.333" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Width="198" Height="46"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush  Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid HorizontalAlignment="Left" Height="772" VerticalAlignment="Top" Width="450" Background="#FFF9F9F9">
+            <Grid HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="450" Margin="0,659,0,0" >
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="PaleGreen" Offset="1"/>
+                        <GradientStop Color="MediumSeaGreen" Offset="0.53"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Image x:ConnectionId='2' HorizontalAlignment="Left" Height="62" VerticalAlignment="Top" Width="49" Source="Assets/arrow_left.png" RenderTransformOrigin="0.686,0.794" Margin="370.667,-18,0,0"                       UseLayoutRounding="False" d:LayoutRounding="Auto" >
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="178.2"/>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:ConnectionId='3' HorizontalAlignment="Left" Height="62" VerticalAlignment="Top" Width="49" Source="info_black.png" RenderTransformOrigin="0.686,0.794" Margin="-0.004,6.007,0,-5.007"                         UseLayoutRounding="False" d:LayoutRounding="Auto" >
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="0.093"/>
+                    </Image.RenderTransform>
+                </Image>
+                <TextBlock x:ConnectionId='4'                       HorizontalAlignment="Left" TextWrapping="Wrap" Text="Get Started" VerticalAlignment="Top" Height="39" Width="130" Margin="262,20,0,0" FontSize="24" Foreground="#FF191717" FontWeight="Bold"/>
+            </Grid>
+            <Grid  HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="450">
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#98FB98" Offset="0"/>
+                        <GradientStop Color="#3CB371" Offset="0.47"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <Image x:ConnectionId='1' HorizontalAlignment="Left" Height="62" VerticalAlignment="Top" Width="49" Source="power_black.png" RenderTransformOrigin="0.686,0.794" Margin="393.035,4,0,-6"                         UseLayoutRounding="False" d:LayoutRounding="Auto" >
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="0.093"/>
+                    </Image.RenderTransform>
+                </Image>
+            </Grid>
+            <Image HorizontalAlignment="Left" Height="405" VerticalAlignment="Top" Width="450" Margin="0,184,0,0" Source="Assets/IMG-20160127-WA0012.jpg" Stretch="UniformToFill"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="    GreenAid" VerticalAlignment="Top" Height="80" Width="450" Margin="-6,79,0,0" FontSize="72" Foreground="#FF1C9754" FontWeight="Bold"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" Height="39" Width="130" Margin="193,16,0,0" FontSize="24" Foreground="#FF191717" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
+

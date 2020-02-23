@@ -1,0 +1,201 @@
+﻿<Page
+    x:Class="GreenAid.BlankPage11"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GreenAid"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="798">
+    <Page.BottomAppBar>
+        <CommandBar Background="#FF4960CD">
+            <AppBarButton Icon="Back" Label="Back" Click="Go_Back"/>
+
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="White" Margin="0,-0.333,0,-12.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <ScrollViewer Margin="0,0,0,0.167" Background="#FFEFF9F8">
+            <Grid>
+                <HyperlinkButton NavigateUri="http://homeguides.sfgate.com/special-care-areca-indoor-palm-trees-43127.html" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,98,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P1.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.twinoaksgrowers.com/care.htm" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,277,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P2.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton NavigateUri="http://www.bonsaiempire.com/tree-species/ficus" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,458,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P3.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="172" Margin="193,158,0,0" FontSize="24" Foreground="#FF190707" FontWeight="Bold" Text="Silk Palm"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="207" Margin="193,521,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Ficus"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="237" Margin="193,352,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Foliage"/>
+                <HyperlinkButton NavigateUri="http://www.bonsaiempire.com/tree-species/ficus" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,639,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P4.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://homeguides.sfgate.com/special-care-areca-indoor-palm-trees-43127.html" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,820,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P5.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="240" Margin="193,714,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Ficus Alii"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="227" Margin="193,877,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Raphis Palm"/>
+                <Grid HorizontalAlignment="Left" Height="60" VerticalAlignment="Top" Width="450" Background="#FF4960CD">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Plant- o -pedia" Width="194" Margin="137,17,0,4" FontSize="24" Foreground="#FFF7F1F1" FontWeight="Bold"/>
+                </Grid>
+                <HyperlinkButton NavigateUri="http://www.topiaryc.com/topiary-care" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,1003,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P6.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.bonsaiempire.com/tree-species/money-tree" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,1174,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P7.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="172" Margin="193,1080,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Topiaries"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="237" Margin="193,1251,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Brisbane"/>
+                <HyperlinkButton NavigateUri="http://www.arbor-nomics.com/takecareofyouratlantaornamentals/" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="13,1345,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P9.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="240" Margin="193,1416,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Ornamental"/>
+                <HyperlinkButton NavigateUri="http://www.wikihow.com/Take-Care-of-Lucky-Bamboo" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,1514,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P17.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="207" Margin="193,1579,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Bamboo" />
+                <HyperlinkButton NavigateUri="http://www.ourhouseplants.com/plants/rubber-plant" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,1677,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P20.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.bonsaiempire.com/basics/bonsai-care" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,1858,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P18.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="240" Margin="193,1754,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Rubber"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="227" Margin="193,1927,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Bonsai"/>
+                <HyperlinkButton NavigateUri="http://www.jerseyplantsdirect.com/care-instructions-for-bedding-plants" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,2040,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P21.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.gardenguides.com/128549-biennial-plant-care.html" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,2210,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P22.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton NavigateUri="http://www.almanac.com/plant/roses" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,2398,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/P23.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="172" Margin="193,2109,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Bedding"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="207" Margin="193,2469,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Roses"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="237" Margin="193,2288,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Biennial"/>
+                <HyperlinkButton Content="" NavigateUri="http://www.beautifulorchids.com/orchids/orchid_care_tips/faq/frequently_asked_questions.html" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,2577,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F1.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="227" Margin="183,2661,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Orchids"/>
+                <HyperlinkButton NavigateUri="http://www.almanac.com/plant/sunflowers" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,2762,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F2a.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.almanac.com/plant/roses" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,2956,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F3.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton NavigateUri="http://homeguides.sfgate.com/care-purple-campanula-36135.html" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,3144,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F4.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="172" Margin="183,2837,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Sunflower"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="207" Margin="183,3215,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Campanula"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="237" Margin="183,3037,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Roses"/>
+                <HyperlinkButton NavigateUri="http://www.almanac.com/plant/roses" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,3334,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F5.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.almanac.com/plant/lilies" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,3548,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F6.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="240" Margin="183,3416,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Roses"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="227" Margin="183,3611,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Lily"/>
+                <HyperlinkButton NavigateUri="http://www.almanac.com/plant/roses" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,3726,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F7.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton Content="" NavigateUri="http://www.theflowerexpert.com/content/mostpopularflowers/carnations" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,3922,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Foreground>
+                        <ImageBrush Stretch="Fill"/>
+                    </HyperlinkButton.Foreground>
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F8.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <HyperlinkButton NavigateUri="http://www.beautifulorchids.com/orchids/orchid_care_tips/faq/frequently_asked_questions.html" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,4133,0,0" Height="163" Width="166">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="Assets/F9.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="172" Margin="193,3806,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Roses"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="207" Margin="183,4200,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Phalaenopsis"/>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="237" Margin="183,4002,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text="Carnation"/>
+                <HyperlinkButton NavigateUri="" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,4355,0,0" Height="163" Width="166">
+           
+                </HyperlinkButton>
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="207" Margin="183,4428,0,0" FontSize="24" Foreground="#FF1D0A0A" FontWeight="Bold" Text=""/>
+
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+
+</Page>

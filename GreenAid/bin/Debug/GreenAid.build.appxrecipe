@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MALIK_JEHANGIR</Machine>
+    <WindowsUser>MALIKJEHANGIRAHMED</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d89b4e39-0bda-42e2-af35-4f7af54f69fd</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\GreenAid.exe">
+      <PackagePath>GreenAid.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\1cd728f01f2e34ea149702babc24873fd5ad111d_Banner01.jpg">
+      <PackagePath>1cd728f01f2e34ea149702babc24873fd5ad111d_Banner01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\1_01.jpg">
+      <PackagePath>1_01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\2534263.jpg">
+      <PackagePath>2534263.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\80042903.jpg">
+      <PackagePath>Assets\80042903.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a.jpg">
+      <PackagePath>Assets\a.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\b.jpg">
+      <PackagePath>Assets\b.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\BadgeLogo.scale-100.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\BadgeLogo.scale-140.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\BadgeLogo.scale-240.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\blue-space-wallpaper-4.jpg">
+      <PackagePath>Assets\blue-space-wallpaper-4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\c.jpg">
+      <PackagePath>Assets\c.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\d.jpg">
+      <PackagePath>Assets\d.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Dracaena_etc.-Costa-resized.jpg">
+      <PackagePath>Assets\Dracaena_etc.-Costa-resized.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\e.jpg">
+      <PackagePath>Assets\e.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\flfl.jpg">
+      <PackagePath>Assets\flfl.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\iphone-20150125142210-0.jpg">
+      <PackagePath>Assets\iphone-20150125142210-0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Ivy-Muse-Homebody-1.jpg">
+      <PackagePath>Assets\Ivy-Muse-Homebody-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\jj.jpg">
+      <PackagePath>Assets\jj.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Lemaux.jpg">
+      <PackagePath>Assets\Lemaux.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\like-us-on-facebook-logo.jpg">
+      <PackagePath>Assets\like-us-on-facebook-logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\logo.jpg">
+      <PackagePath>Assets\logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Martina Newell-McGloughlin.JPG">
+      <PackagePath>Assets\Martina Newell-McGloughlin.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\photo.jpg">
+      <PackagePath>Assets\photo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\SplashScreen.scale-100.jpg">
+      <PackagePath>Assets\SplashScreen.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\SplashScreen.scale-140.jpg">
+      <PackagePath>Assets\SplashScreen.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\SplashScreen.scale-240.jpg">
+      <PackagePath>Assets\SplashScreen.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square150x150Logo.scale-100.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square150x150Logo.scale-140.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square150x150Logo.scale-240.jpg">
+      <PackagePath>Assets\Square150x150Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square44x44Logo.scale-100.jpg">
+      <PackagePath>Assets\Square44x44Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square44x44Logo.scale-140.jpg">
+      <PackagePath>Assets\Square44x44Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square44x44Logo.scale-240.jpg">
+      <PackagePath>Assets\Square44x44Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square71x71Logo.scale-100.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square71x71Logo.scale-140.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Square71x71Logo.scale-240.jpg">
+      <PackagePath>Assets\Square71x71Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\StoreLogo.scale-100.jpg">
+      <PackagePath>Assets\StoreLogo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\StoreLogo.scale-140.jpg">
+      <PackagePath>Assets\StoreLogo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\StoreLogo.scale-240.jpg">
+      <PackagePath>Assets\StoreLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\trewavas.jpg">
+      <PackagePath>Assets\trewavas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Twitter2.jpg">
+      <PackagePath>Assets\Twitter2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\w1.jpg">
+      <PackagePath>Assets\w1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\wambugu.jpg">
+      <PackagePath>Assets\wambugu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Wide310x150Logo.scale-100.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Wide310x150Logo.scale-140.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Wide310x150Logo.scale-240.jpg">
+      <PackagePath>Assets\Wide310x150Logo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Yo2012.jpg">
+      <PackagePath>Assets\Yo2012.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\youtube%2520logo.jpg">
+      <PackagePath>Assets\youtube%2520logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\car-service-car-with-wheel-and-tools-icon-on-green-map-pointer-vector-illustration-stock-vector-589747.jpg">
+      <PackagePath>car-service-car-with-wheel-and-tools-icon-on-green-map-pointer-vector-illustration-stock-vector-589747.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\green-gift.jpg">
+      <PackagePath>Assets\green-gift.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\green-tree-silhouettes-free-vector.jpg">
+      <PackagePath>green-tree-silhouettes-free-vector.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\green_shopping_bag_classic_round_sticker-r92c495f8895343bab7699165c41f10c1_v9waf_8byvr_324.jpg">
+      <PackagePath>green_shopping_bag_classic_round_sticker-r92c495f8895343bab7699165c41f10c1_v9waf_8byvr_324.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\ikebana3.jpg">
+      <PackagePath>Assets\ikebana3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\imagine-cup-20161.jpg">
+      <PackagePath>imagine-cup-20161.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Original logo.jpg">
+      <PackagePath>Original logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\rivieria-flowers-gifts-chocoloates.jpg">
+      <PackagePath>rivieria-flowers-gifts-chocoloates.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\special-offer.jpg">
+      <PackagePath>special-offer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\200x65_watchmeon_red.png">
+      <PackagePath>Assets\200x65_watchmeon_red.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a1.png">
+      <PackagePath>Assets\a1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a2.png">
+      <PackagePath>Assets\a2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a3.png">
+      <PackagePath>Assets\a3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a4.png">
+      <PackagePath>Assets\a4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a5.png">
+      <PackagePath>Assets\a5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a6.png">
+      <PackagePath>Assets\a6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a7.png">
+      <PackagePath>Assets\a7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a8.png">
+      <PackagePath>Assets\a8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\a9.png">
+      <PackagePath>Assets\a9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\arrow_left.png">
+      <PackagePath>Assets\arrow_left.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\br_next.png">
+      <PackagePath>Assets\br_next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\download.png">
+      <PackagePath>Assets\download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F1.png">
+      <PackagePath>Assets\F1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F1a.png">
+      <PackagePath>Assets\F1a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F1b.png">
+      <PackagePath>Assets\F1b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F1c.png">
+      <PackagePath>Assets\F1c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F2.png">
+      <PackagePath>Assets\F2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F2a.png">
+      <PackagePath>Assets\F2a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F2b.png">
+      <PackagePath>Assets\F2b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F2c.png">
+      <PackagePath>Assets\F2c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F3.png">
+      <PackagePath>Assets\F3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F3a.png">
+      <PackagePath>Assets\F3a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F3b.png">
+      <PackagePath>Assets\F3b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F3c.png">
+      <PackagePath>Assets\F3c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F4.png">
+      <PackagePath>Assets\F4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F4a.png">
+      <PackagePath>Assets\F4a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F4b.png">
+      <PackagePath>Assets\F4b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F4c.png">
+      <PackagePath>Assets\F4c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F5.png">
+      <PackagePath>Assets\F5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F5a.png">
+      <PackagePath>Assets\F5a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F5b.png">
+      <PackagePath>Assets\F5b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F5c.png">
+      <PackagePath>Assets\F5c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F6.png">
+      <PackagePath>Assets\F6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F6a.png">
+      <PackagePath>Assets\F6a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F6b.png">
+      <PackagePath>Assets\F6b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F6c.png">
+      <PackagePath>Assets\F6c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F7.png">
+      <PackagePath>Assets\F7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F7a.png">
+      <PackagePath>Assets\F7a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F7b.png">
+      <PackagePath>Assets\F7b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F7c.png">
+      <PackagePath>Assets\F7c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F8.png">
+      <PackagePath>Assets\F8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F8a.png">
+      <PackagePath>Assets\F8a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F8b.png">
+      <PackagePath>Assets\F8b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F8c.png">
+      <PackagePath>Assets\F8c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F9.png">
+      <PackagePath>Assets\F9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F9a.png">
+      <PackagePath>Assets\F9a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F9b.png">
+      <PackagePath>Assets\F9b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\F9c.png">
+      <PackagePath>Assets\F9c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Ingo_Potrykus.png">
+      <PackagePath>Assets\Ingo_Potrykus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Instagram-Icon.png">
+      <PackagePath>Assets\Instagram-Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\new_header.png">
+      <PackagePath>Assets\new_header.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\noun_115320_cc.png">
+      <PackagePath>Assets\noun_115320_cc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\noun_231807_cc.png">
+      <PackagePath>Assets\noun_231807_cc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\noun_50087_cc.png">
+      <PackagePath>Assets\noun_50087_cc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\noun_55368_cc.png">
+      <PackagePath>Assets\noun_55368_cc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\noun_62988_cc.png">
+      <PackagePath>Assets\noun_62988_cc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P1.png">
+      <PackagePath>Assets\P1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P10.png">
+      <PackagePath>Assets\P10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P11.png">
+      <PackagePath>Assets\P11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P11a.png">
+      <PackagePath>Assets\P11a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P11b.png">
+      <PackagePath>Assets\P11b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P11c.png">
+      <PackagePath>Assets\P11c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P12.png">
+      <PackagePath>Assets\P12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P13.png">
+      <PackagePath>Assets\P13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P14.png">
+      <PackagePath>Assets\P14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P15.png">
+      <PackagePath>Assets\P15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P16.png">
+      <PackagePath>Assets\P16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P16a.png">
+      <PackagePath>Assets\P16a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P16b.png">
+      <PackagePath>Assets\P16b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P16c.png">
+      <PackagePath>Assets\P16c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P17.png">
+      <PackagePath>Assets\P17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P17a.png">
+      <PackagePath>Assets\P17a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P17b.png">
+      <PackagePath>Assets\P17b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P17c.png">
+      <PackagePath>Assets\P17c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P18.png">
+      <PackagePath>Assets\P18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P18a.png">
+      <PackagePath>Assets\P18a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P18b.png">
+      <PackagePath>Assets\P18b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P18c.png">
+      <PackagePath>Assets\P18c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P19.png">
+      <PackagePath>Assets\P19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P19a.png">
+      <PackagePath>Assets\P19a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P19b.png">
+      <PackagePath>Assets\P19b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P19c.png">
+      <PackagePath>Assets\P19c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P1a.png">
+      <PackagePath>Assets\P1a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P1b.png">
+      <PackagePath>Assets\P1b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P1c.png">
+      <PackagePath>Assets\P1c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P2.png">
+      <PackagePath>Assets\P2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P20.png">
+      <PackagePath>Assets\P20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P20a.png">
+      <PackagePath>Assets\P20a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P20b.png">
+      <PackagePath>Assets\P20b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P20c.png">
+      <PackagePath>Assets\P20c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P21.png">
+      <PackagePath>Assets\P21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P21a.png">
+      <PackagePath>Assets\P21a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P21b.png">
+      <PackagePath>Assets\P21b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P21c.png">
+      <PackagePath>Assets\P21c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P22.png">
+      <PackagePath>Assets\P22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P22a.png">
+      <PackagePath>Assets\P22a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P22b.png">
+      <PackagePath>Assets\P22b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P22c.png">
+      <PackagePath>Assets\P22c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P23.png">
+      <PackagePath>Assets\P23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P23a.png">
+      <PackagePath>Assets\P23a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P23b.png">
+      <PackagePath>Assets\P23b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P23c.png">
+      <PackagePath>Assets\P23c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P2a.png">
+      <PackagePath>Assets\P2a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P2b.png">
+      <PackagePath>Assets\P2b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P2c.png">
+      <PackagePath>Assets\P2c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P3.png">
+      <PackagePath>Assets\P3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P3a.png">
+      <PackagePath>Assets\P3a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P3b.png">
+      <PackagePath>Assets\P3b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P3c.png">
+      <PackagePath>Assets\P3c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P4.png">
+      <PackagePath>Assets\P4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P4a.png">
+      <PackagePath>Assets\P4a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P4b.png">
+      <PackagePath>Assets\P4b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P4c.png">
+      <PackagePath>Assets\P4c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P5.png">
+      <PackagePath>Assets\P5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P5a.png">
+      <PackagePath>Assets\P5a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P5b.png">
+      <PackagePath>Assets\P5b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P5c.png">
+      <PackagePath>Assets\P5c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P6.png">
+      <PackagePath>Assets\P6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P6a.png">
+      <PackagePath>Assets\P6a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P6b.png">
+      <PackagePath>Assets\P6b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P6c.png">
+      <PackagePath>Assets\P6c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P7.png">
+      <PackagePath>Assets\P7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P7a.png">
+      <PackagePath>Assets\P7a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P7b.png">
+      <PackagePath>Assets\P7b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P7c.png">
+      <PackagePath>Assets\P7c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P8.png">
+      <PackagePath>Assets\P8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P8a.png">
+      <PackagePath>Assets\P8a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P8b.png">
+      <PackagePath>Assets\P8b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P8c.png">
+      <PackagePath>Assets\P8c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P9.png">
+      <PackagePath>Assets\P9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P9a.png">
+      <PackagePath>Assets\P9a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P9b.png">
+      <PackagePath>Assets\P9b.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\P9c.png">
+      <PackagePath>Assets\P9c.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\Screen Shot 2016-03-03 at 9.22.17 AM.png">
+      <PackagePath>Assets\Screen Shot 2016-03-03 at 9.22.17 AM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\camera-black-and-white-instagram-camera-logo-black-and-white.png">
+      <PackagePath>camera-black-and-white-instagram-camera-logo-black-and-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\experts.png">
+      <PackagePath>experts.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\fb.png">
+      <PackagePath>fb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\GreenButton.png">
+      <PackagePath>GreenButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\home_w.png">
+      <PackagePath>home_w.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\icon_232672.png">
+      <PackagePath>icon_232672.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\info_black.png">
+      <PackagePath>info_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\instagram.png">
+      <PackagePath>instagram.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\power_black.png">
+      <PackagePath>power_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\warenkorb.png">
+      <PackagePath>warenkorb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\youtube.png">
+      <PackagePath>youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\GreenAid.xr.xml">
+      <PackagePath>GreenAid.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage1.xbf">
+      <PackagePath>BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage10.xbf">
+      <PackagePath>BlankPage10.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage11.xbf">
+      <PackagePath>BlankPage11.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage2.xbf">
+      <PackagePath>BlankPage2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage3.xbf">
+      <PackagePath>BlankPage3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage4.xbf">
+      <PackagePath>BlankPage4.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage5.xbf">
+      <PackagePath>BlankPage5.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage6.xbf">
+      <PackagePath>BlankPage6.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage7.xbf">
+      <PackagePath>BlankPage7.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage8.xbf">
+      <PackagePath>BlankPage8.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\BlankPage9.xbf">
+      <PackagePath>BlankPage9.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MALIKJEHANGIRAHMED\Desktop\GreenAid\GreenAid\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

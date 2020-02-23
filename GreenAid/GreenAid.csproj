@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E24AABBC-0CCD-407B-AEFC-44AB0AD43827}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenAid</RootNamespace>
+    <AssemblyName>GreenAid</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x86|arm</AppxBundlePlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage1.xaml.cs">
+      <DependentUpon>BlankPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage10.xaml.cs">
+      <DependentUpon>BlankPage10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage11.xaml.cs">
+      <DependentUpon>BlankPage11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage2.xaml.cs">
+      <DependentUpon>BlankPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage3.xaml.cs">
+      <DependentUpon>BlankPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage4.xaml.cs">
+      <DependentUpon>BlankPage4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage5.xaml.cs">
+      <DependentUpon>BlankPage5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage6.xaml.cs">
+      <DependentUpon>BlankPage6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage7.xaml.cs">
+      <DependentUpon>BlankPage7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage8.xaml.cs">
+      <DependentUpon>BlankPage8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BlankPage9.xaml.cs">
+      <DependentUpon>BlankPage9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="items.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelayCommand.cs" />
+    <Compile Include="SuspensionManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1cd728f01f2e34ea149702babc24873fd5ad111d_Banner01.jpg" />
+    <Content Include="1_01.jpg" />
+    <Content Include="2534263.jpg" />
+    <Content Include="Assets\200x65_watchmeon_red.png" />
+    <Content Include="Assets\80042903.jpg" />
+    <Content Include="Assets\a.jpg" />
+    <Content Include="Assets\a1.png" />
+    <Content Include="Assets\a2.png" />
+    <Content Include="Assets\a3.png" />
+    <Content Include="Assets\a4.png" />
+    <Content Include="Assets\a5.png" />
+    <Content Include="Assets\a6.png" />
+    <Content Include="Assets\a7.png" />
+    <Content Include="Assets\a8.png" />
+    <Content Include="Assets\a9.png" />
+    <Content Include="Assets\arrow_left.png" />
+    <Content Include="Assets\b.jpg" />
+    <Content Include="Assets\BadgeLogo.scale-100.jpg" />
+    <Content Include="Assets\BadgeLogo.scale-140.jpg" />
+    <Content Include="Assets\BadgeLogo.scale-240.jpg" />
+    <Content Include="Assets\blue-space-wallpaper-4.jpg" />
+    <Content Include="Assets\br_next.png" />
+    <Content Include="Assets\c.jpg" />
+    <Content Include="Assets\d.jpg" />
+    <Content Include="Assets\download.png" />
+    <Content Include="Assets\Dracaena_etc.-Costa-resized.jpg" />
+    <Content Include="Assets\e.jpg" />
+    <Content Include="Assets\F1.png" />
+    <Content Include="Assets\F1a.png" />
+    <Content Include="Assets\F1b.png" />
+    <Content Include="Assets\F1c.png" />
+    <Content Include="Assets\F2.png" />
+    <Content Include="Assets\F2a.png" />
+    <Content Include="Assets\F2b.png" />
+    <Content Include="Assets\F2c.png" />
+    <Content Include="Assets\F3.png" />
+    <Content Include="Assets\F3a.png" />
+    <Content Include="Assets\F3b.png" />
+    <Content Include="Assets\F3c.png" />
+    <Content Include="Assets\F4.png" />
+    <Content Include="Assets\F4a.png" />
+    <Content Include="Assets\F4b.png" />
+    <Content Include="Assets\F4c.png" />
+    <Content Include="Assets\F5.png" />
+    <Content Include="Assets\F5a.png" />
+    <Content Include="Assets\F5b.png" />
+    <Content Include="Assets\F5c.png" />
+    <Content Include="Assets\F6.png" />
+    <Content Include="Assets\F6a.png" />
+    <Content Include="Assets\F6b.png" />
+    <Content Include="Assets\F6c.png" />
+    <Content Include="Assets\F7.png" />
+    <Content Include="Assets\F7a.png" />
+    <Content Include="Assets\F7b.png" />
+    <Content Include="Assets\F7c.png" />
+    <Content Include="Assets\F8.png" />
+    <Content Include="Assets\F8a.png" />
+    <Content Include="Assets\F8b.png" />
+    <Content Include="Assets\F8c.png" />
+    <Content Include="Assets\F9.png" />
+    <Content Include="Assets\F9a.png" />
+    <Content Include="Assets\F9b.png" />
+    <Content Include="Assets\F9c.png" />
+    <Content Include="Assets\flfl.jpg" />
+    <Content Include="Assets\Ingo_Potrykus.png" />
+    <Content Include="Assets\Instagram-Icon.png" />
+    <Content Include="Assets\iphone-20150125142210-0.jpg" />
+    <Content Include="Assets\Ivy-Muse-Homebody-1.jpg" />
+    <Content Include="Assets\jj.jpg" />
+    <Content Include="Assets\Lemaux.jpg" />
+    <Content Include="Assets\like-us-on-facebook-logo.jpg" />
+    <Content Include="Assets\logo.jpg" />
+    <Content Include="Assets\logo.png" />
+    <Content Include="Assets\Martina Newell-McGloughlin.JPG" />
+    <Content Include="Assets\new_header.png" />
+    <Content Include="Assets\noun_115320_cc.png" />
+    <Content Include="Assets\noun_231807_cc.png" />
+    <Content Include="Assets\noun_50087_cc.png" />
+    <Content Include="Assets\noun_55368_cc.png" />
+    <Content Include="Assets\noun_62988_cc.png" />
+    <Content Include="Assets\P1.png" />
+    <Content Include="Assets\P10.png" />
+    <Content Include="Assets\P11.png" />
+    <Content Include="Assets\P11a.png" />
+    <Content Include="Assets\P11b.png" />
+    <Content Include="Assets\P11c.png" />
+    <Content Include="Assets\P12.png" />
+    <Content Include="Assets\P13.png" />
+    <Content Include="Assets\P14.png" />
+    <Content Include="Assets\P15.png" />
+    <Content Include="Assets\P16.png" />
+    <Content Include="Assets\P16a.png" />
+    <Content Include="Assets\P16b.png" />
+    <Content Include="Assets\P16c.png" />
+    <Content Include="Assets\P17.png" />
+    <Content Include="Assets\P17a.png" />
+    <Content Include="Assets\P17b.png" />
+    <Content Include="Assets\P17c.png" />
+    <Content Include="Assets\P18.png" />
+    <Content Include="Assets\P18a.png" />
+    <Content Include="Assets\P18b.png" />
+    <Content Include="Assets\P18c.png" />
+    <Content Include="Assets\P19.png" />
+    <Content Include="Assets\P19a.png" />
+    <Content Include="Assets\P19b.png" />
+    <Content Include="Assets\P19c.png" />
+    <Content Include="Assets\P1a.png" />
+    <Content Include="Assets\P1b.png" />
+    <Content Include="Assets\P1c.png" />
+    <Content Include="Assets\P2.png" />
+    <Content Include="Assets\P20.png" />
+    <Content Include="Assets\P20a.png" />
+    <Content Include="Assets\P20b.png" />
+    <Content Include="Assets\P20c.png" />
+    <Content Include="Assets\P21.png" />
+    <Content Include="Assets\P21a.png" />
+    <Content Include="Assets\P21b.png" />
+    <Content Include="Assets\P21c.png" />
+    <Content Include="Assets\P22.png" />
+    <Content Include="Assets\P22a.png" />
+    <Content Include="Assets\P22b.png" />
+    <Content Include="Assets\P22c.png" />
+    <Content Include="Assets\P23.png" />
+    <Content Include="Assets\P23a.png" />
+    <Content Include="Assets\P23b.png" />
+    <Content Include="Assets\P23c.png" />
+    <Content Include="Assets\P2a.png" />
+    <Content Include="Assets\P2b.png" />
+    <Content Include="Assets\P2c.png" />
+    <Content Include="Assets\P3.png" />
+    <Content Include="Assets\P3a.png" />
+    <Content Include="Assets\P3b.png" />
+    <Content Include="Assets\P3c.png" />
+    <Content Include="Assets\P4.png" />
+    <Content Include="Assets\P4a.png" />
+    <Content Include="Assets\P4b.png" />
+    <Content Include="Assets\P4c.png" />
+    <Content Include="Assets\P5.png" />
+    <Content Include="Assets\P5a.png" />
+    <Content Include="Assets\P5b.png" />
+    <Content Include="Assets\P5c.png" />
+    <Content Include="Assets\P6.png" />
+    <Content Include="Assets\P6a.png" />
+    <Content Include="Assets\P6b.png" />
+    <Content Include="Assets\P6c.png" />
+    <Content Include="Assets\P7.png" />
+    <Content Include="Assets\P7a.png" />
+    <Content Include="Assets\P7b.png" />
+    <Content Include="Assets\P7c.png" />
+    <Content Include="Assets\P8.png" />
+    <Content Include="Assets\P8a.png" />
+    <Content Include="Assets\P8b.png" />
+    <Content Include="Assets\P8c.png" />
+    <Content Include="Assets\P9.png" />
+    <Content Include="Assets\P9a.png" />
+    <Content Include="Assets\P9b.png" />
+    <Content Include="Assets\P9c.png" />
+    <Content Include="Assets\photo.jpg" />
+    <Content Include="Assets\Screen Shot 2016-03-03 at 9.22.17 AM.png" />
+    <Content Include="Assets\SplashScreen.scale-100.jpg" />
+    <Content Include="Assets\SplashScreen.scale-140.jpg" />
+    <Content Include="Assets\SplashScreen.scale-240.jpg" />
+    <Content Include="Assets\Square150x150Logo.scale-100.jpg" />
+    <Content Include="Assets\Square150x150Logo.scale-140.jpg" />
+    <Content Include="Assets\Square150x150Logo.scale-240.jpg" />
+    <Content Include="Assets\Square44x44Logo.scale-100.jpg" />
+    <Content Include="Assets\Square44x44Logo.scale-140.jpg" />
+    <Content Include="Assets\Square44x44Logo.scale-240.jpg" />
+    <Content Include="Assets\Square71x71Logo.scale-100.jpg" />
+    <Content Include="Assets\Square71x71Logo.scale-140.jpg" />
+    <Content Include="Assets\Square71x71Logo.scale-240.jpg" />
+    <Content Include="Assets\StoreLogo.scale-100.jpg" />
+    <Content Include="Assets\StoreLogo.scale-140.jpg" />
+    <Content Include="Assets\StoreLogo.scale-240.jpg" />
+    <Content Include="Assets\trewavas.jpg" />
+    <Content Include="Assets\Twitter2.jpg" />
+    <Content Include="Assets\w1.jpg" />
+    <Content Include="Assets\wambugu.jpg" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.jpg" />
+    <Content Include="Assets\Wide310x150Logo.scale-140.jpg" />
+    <Content Include="Assets\Wide310x150Logo.scale-240.jpg" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <Content Include="Assets\Yo2012.jpg" />
+    <Content Include="Assets\youtube%2520logo.jpg" />
+    <Content Include="camera-black-and-white-instagram-camera-logo-black-and-white.png" />
+    <Content Include="car-service-car-with-wheel-and-tools-icon-on-green-map-pointer-vector-illustration-stock-vector-589747.jpg" />
+    <Content Include="experts.png" />
+    <Content Include="fb.png" />
+    <Content Include="Assets\green-gift.jpg" />
+    <Content Include="green-tree-silhouettes-free-vector.jpg" />
+    <Content Include="GreenButton.png" />
+    <Content Include="green_shopping_bag_classic_round_sticker-r92c495f8895343bab7699165c41f10c1_v9waf_8byvr_324.jpg" />
+    <Content Include="home_w.png" />
+    <Content Include="icon_232672.png" />
+    <Content Include="Assets\ikebana3.jpg" />
+    <Content Include="imagine-cup-20161.jpg" />
+    <Content Include="info_black.png" />
+    <Content Include="instagram.png" />
+    <Content Include="Original logo.jpg" />
+    <Content Include="power_black.png" />
+    <Content Include="rivieria-flowers-gifts-chocoloates.jpg" />
+    <Content Include="special-offer.jpg" />
+    <Content Include="warenkorb.png" />
+    <Content Include="youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="BlankPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BlankPage9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="0b6d8b454db05ca1d2fd8fff8971cd524e1be71e_banner04jpg" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
